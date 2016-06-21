@@ -1,0 +1,20 @@
+<form class="form-signin" method="post" action="/register">
+	<h2 class="form-signin-heading">{{title}}</h2>
+
+	<label class="sr-only">Name</label>
+	<input type="text" class="form-control" name="name" placeholder="Name" required autofocus>
+	<label class="sr-only">Username</label>
+	<input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+
+	<label class="sr-only">Email</label>
+	<input type="email" class="form-control" name="email" placeholder="Email Address" required autofocus>
+
+	<label class="sr-only">Password</label>
+	<input type="password" name="password" class="form-control" placeholder="Password" required>
+
+	<label class="sr-only">Confirm Password</label>
+	<input type="password" class="form-control" placeholder="Confirm Password" name="password2" required>
+	<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+	<br>
+	Have an Account? <a href="/">Login Now</a>
+</form>
